@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
+  <body>
       <h5>Foundation uses a 12 cell grid system demonstrated below:</h5>
       <!-- Grid Example -->
 
@@ -132,4 +133,30 @@
           </div>
         </div>
       </div>
+      <h5> Foundation also allows for easily usable forms inside the grid</h5>
+      <div class="grid-x grid-padding-x">
+              <div class="large-12 cell">
+                <label>Your favorite sound effect</label>
+                <select>
+                  <option value="boom">Boom</option>
+                  <option value="badabang">BadaBang</option>
+                  <option value="pow">Pow</option>
+                  <option value="krakow">Krakow</option>
+                </select>
+              </div>
+      </div>
+      <div class="grid-x grid-padding-x">
+              <div class="large-6 medium-6 cell">
+                <label>Where's Waldo</label>
+                <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">HERE</label>
+                <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">THERE</label>
+		 <input type="radio" name="pokemon" value="Green" id="pokemonGreen"><label for="pokemonGreen">WHO THE HELL IS WALDO</label>
+              </div>
+              <div class="large-6 medium-6 cell">
+                <label>More About that</label>
+                <input id="checkbox1" type="checkbox"><label for="checkbox1">WALDOS NOT REAL</label>
+                <input id="checkbox2" type="checkbox"><label for="checkbox2">WALDO AN IDIOT</label>
+              </div>
+            </div>
+  </body>
 </html>
